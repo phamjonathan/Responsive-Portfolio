@@ -107,7 +107,7 @@ body {
     color: #ffffff;
     text-align: center;
     background: #ffffff;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #ffffff;
     height: 50px;
   }
   
@@ -121,13 +121,13 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 100;
+    padding-top: 50px;
     min-height: calc(100vh - 70px);
   }
   
   .main-section {
     float: center;
-    width: 750;
+    width: 100%;
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
@@ -135,49 +135,30 @@ body {
     border: 1px solid #e69233;
   }
   
-  #header1 {
-    position: absolute;
-    z-index: 50;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: none;
-    color: #e69233;
-    background: #e69233;
-    border-bottom: 1px solid #e69233;
-    
-  }
-  
-  #main-container1 {
-    padding-top: 130px;
-  }
-  
-  .main-section1 {
-    float: center;
-    width: 100%;
-    max-width: 650px;
-  
-    /* Box-model */
-    padding: 30px;
-  
-    /* Positioning */
-    margin: 0 0 40px;
-    background: #fff;
-  
-    /* Visual */
-    border: 0px solid #ddd;
-  }
 
 
   /* portfolio page */
+
+  #mylogo {
+    float: center;
+    width: 300px;
+    height: 100px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: 650;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #e69233;
+  }
+  
   
   .work {
-    /* Positioning */
     position: relative;
-    float: left;
-  
-    /* Box-model */
-    width: 274px;
-    margin: 20px 0 25px;
+    float: center;
+    width: 220px;
+    margin: 50px 0 50px;
     overflow: auto;
   }
   
@@ -186,48 +167,31 @@ body {
   }
   
   .work img {
-    /* Box-model */
     width: 100%;
-  
-    /* Visual */
-    border: 0 none;
-  
-    /* Misc */
-    opacity: 0.8;
+    border: 1 none;
+    opacity: 1;
   }
   
   .work h3 {
-    /* Positioning */
     position: absolute;
     bottom: 20px;
     width: 100%;
-  
-    /* Box-model */
     padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
-  
-    /* Typography */
-  
-    color: #fff;
+    color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
-  
-    /* Visual */
+    background: #e69233;
     border-bottom: 0;
   }
   
   .auth-image {
     float: left;
-  
-    /* Box-model */
-    width: 200px;
+    width: 250px;
     height: auto;
     margin-top: 10px;
-  
-    /* Positioning */
-    margin-right: 25px;
+    margin-right: 10px;
   }
   
   /* contact page */
